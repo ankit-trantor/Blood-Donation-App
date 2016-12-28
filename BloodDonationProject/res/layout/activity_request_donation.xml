@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <Spinner
+        android:id="@+id/bloodTypesSpr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numOfDonatorsSpr"
+        android:layout_alignRight="@+id/numOfDonatorsSpr"
+        android:layout_marginTop="40dp" />
+
+    <Spinner
+        android:id="@+id/numOfDonatorsSpr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/citiesNameSpr"
+        android:layout_alignRight="@+id/citiesNameSpr"
+        android:layout_below="@+id/bloodTypesSpr"
+        android:layout_marginTop="15dp" />
+
+    <Spinner
+        android:id="@+id/citiesNameSpr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hospitalNameET"
+        android:layout_alignRight="@+id/hospitalNameET"
+        android:layout_below="@+id/numOfDonatorsSpr"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/hospitalNameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/citiesNameSpr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/hospital_name_et_hint"
+        android:singleLine="true"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hospitalNameET"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="37dp"
+        android:background="#D91622"
+        android:text="@string/ask_for_don_btn_text"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</RelativeLayout>

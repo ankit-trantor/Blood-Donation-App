@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_selector" >
+
+    <TextView
+        android:id="@+id/patientNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="22dp"
+        android:paddingTop="10dp"
+        android:text="@string/patientNameLabel"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/patientFileNumLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/hospitalNameLabel"
+        android:layout_below="@+id/hospitalNameLabel"
+        android:layout_marginTop="12dp"
+        android:text="@string/patienrFileNumLabel"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cityNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/patientNameLabel"
+        android:layout_below="@+id/patientNameLabel"
+        android:layout_marginTop="12dp"
+        android:text="@string/cityNameLabel"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hospitalNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cityNameLabel"
+        android:layout_below="@+id/cityNameLabel"
+        android:layout_marginTop="12dp"
+        android:text="@string/hospitalNameLabel"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/patientNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cityNameLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/patientNameLabel"
+        android:paddingRight="10dp"
+        android:text="@string/patientNameTV"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hospitalNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/patientFileNumLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/hospitalNameLabel"
+        android:paddingRight="10dp"
+        android:text="@string/hospitalNameTV"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cityNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hospitalNameLabel"
+        android:layout_toLeftOf="@+id/cityNameLabel"
+        android:paddingRight="10dp"
+        android:text="@string/cityNameTV"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/patientFileNumTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/patientFileNumLabel"
+        android:layout_alignBottom="@+id/patientFileNumLabel"
+        android:layout_toLeftOf="@+id/patientFileNumLabel"
+        android:paddingRight="10dp"
+        android:text="@string/patientFileNumTV"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/acceptBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/patientFileNumLabel"
+        android:layout_below="@+id/patientFileNumLabel"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/icon_accept"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/rejectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/acceptBtn"
+        android:layout_alignBottom="@+id/acceptBtn"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/icon_reject"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

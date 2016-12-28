@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_selector" >
+
+    <TextView
+        android:id="@+id/orderIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="22dp"
+        android:paddingTop="10dp"
+        android:text="@string/order_number"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/remainingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/orderIdLabel"
+        android:layout_below="@+id/orderIdLabel"
+        android:layout_marginTop="12dp"
+        android:paddingBottom="10dp"
+        android:text="@string/remaining_number"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/remainingTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/remainingLabel"
+        android:layout_alignBottom="@+id/remainingLabel"
+        android:layout_toLeftOf="@+id/remainingLabel"
+        android:paddingRight="10dp"
+        android:text=""
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderIdTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/remainingLabel"
+        android:layout_toLeftOf="@+id/orderIdLabel"
+        android:paddingRight="10dp"
+        android:text="@string/order_number"
+        android:textColor="#191919"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

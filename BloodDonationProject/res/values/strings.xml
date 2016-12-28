@@ -1,0 +1,103 @@
+<resources>
+
+    <string name="app_name">بنك الدم</string>
+
+    <string-array name="user_type_spr">
+        <item>هل انت</item>
+        <item>مريض</item>
+        <item>متبرع</item>
+    </string-array>
+    <string-array name="blood_type">
+        <item>اختر فصيلة الدم</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="cities_list">
+        <item>اختر المدينة</item>
+        <item>الرياض</item>
+        <item>الدمام</item>
+        <item>جدة</item>
+        <item>مكه</item>
+        <item>الخبر</item>
+    </string-array>
+    <string-array name="num_of_donators">
+        <item>عدد المتبرعين المطلوب</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>23</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="login_btn_text">تسجيل الدخول</string>
+    <string name="img_desc">Null</string>
+    <string name="signup_btn_text">انشاء حساب جديد</string>
+    <string name="username_et_hint">اسم المستخدم</string>
+    <string name="password_et_hint">كلمة المرور</string>
+    <string name="rest_password_tv">هل نسيت كلمة المرور؟</string>
+    <string name="confirm_password_et_hint">تاكيد كلمة المرور</string>
+    <string name="email_et_hint">البريد الالكتروني</string>
+    <string name="signup_btn_text2">تسجيل</string>
+    <string name="rest_password_label">استعادة كلمة المرور</string>
+    <string name="ask_for_don_btn_text">طلب تبرع</string>
+    <string name="patient_file_num_et_hint">رقم ملف المريض</string>
+    <string name="patient_name_et_hint">اسم المريض</string>
+    <string name="hospital_name_et_hint">اسم المستشفى</string>
+    <string name="name_et_hint">اسم المتبرع</string>
+    <string name="submit_new_don_btn_text">موافق</string>
+    <string name="new_don_btn_text">متبرع جديد</string>
+    <string name="messages_btn_text">طلبات التبرع</string>
+    <string name="logout_menu">تسجيل الخروج</string>
+    <string name="patientNameLabel">اسم المريض :</string>
+    <string name="patienrFileNumLabel">رقم ملف المريض :</string>
+    <string name="cityNameLabel">المدينة :</string>
+    <string name="hospitalNameLabel">المستشفى :</string>
+    <string name="patientNameTV">اسم المريض</string>
+    <string name="hospitalNameTV">اسم المستشفى</string>
+    <string name="cityNameTV">اسم المدينة</string>
+    <string name="patientFileNumTV">رقم الملف</string>
+    <string name="refresh_menu">تحديث</string>
+    <string name="are_you">هل انت:</string>
+    <string name="donator">متبرع</string>
+    <string name="patient">مريض</string>
+    <string name="my_data">بياناتي</string>
+    <string name="name">الاسم</string>
+    <string name="update_btn_text">تحديث البيانات</string>
+    <string name="update_user_type">نوع المستخدم :</string>
+    <string name="order_number">رقم الطلب :</string>
+    <string name="remaining_number"> عدد المتبرعين المتبقي :</string>
+    <string name="stop_notf">ايقاف التنبيهات</string>
+    <string name="notd_settings">اعدادات التنبيهات</string>
+
+</resources>
